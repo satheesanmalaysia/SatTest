@@ -16,7 +16,9 @@ export default function App() {
         return [left + 1, right + 1];
       } else if (sum < target) {
         left++;
-      } 
+      } else{
+        right--;
+      }
     }
     return [];
   }
