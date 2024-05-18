@@ -13,56 +13,56 @@ export default function Page() {
         }}
       >
         <View style={styles.tiles}>
-          {" "}
+      
           <Pressable onPress={() => setSelectedTab("AEON")}>
             <Text>AEON</Text>
           </Pressable>
         </View>
         <View style={styles.tiles}>
-          {" "}
+     
           <Pressable onPress={() => setSelectedTab("Show")}>
             <Text>Showcase</Text>
           </Pressable>
         </View>
         <View style={styles.tiles}>
-          {" "}
+   
           <Pressable onPress={() => setSelectedTab("Docs")}>
             <Text>Docs</Text>
           </Pressable>
         </View>
         <View style={styles.tiles}>
-          {" "}
+     
           <Pressable onPress={() => setSelectedTab("Blog")}>
             <Text>Blogs</Text>
           </Pressable>
         </View>
         <View style={styles.tiles}>
-          {" "}
+     
           <Pressable onPress={() => setSelectedTab("Analytics")}>
             <Text>Analytics</Text>
           </Pressable>
         </View>
         <View style={styles.tiles}>
-          {" "}
+     
           <Pressable onPress={() => setSelectedTab("Commerce")}>
             <Text>Commerce</Text>
           </Pressable>
         </View>
         <View style={styles.tiles}>
-          {" "}
+     
           <Pressable onPress={() => setSelectedTab("Template")}>
             <Text>Template</Text>
           </Pressable>
         </View>
         <View style={styles.tiles}>
-          {" "}
+   
           <Pressable onPress={() => setSelectedTab("Enterprice")}>
             <Text>Enterprice</Text>
           </Pressable>
         </View>
 
         <View style={styles.tiles}>
-          {" "}
+      
           <TextInput style={styles.Text} placeholder="Search Documentation " />
         </View>
       </View>

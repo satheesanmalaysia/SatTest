@@ -14,9 +14,7 @@ export default function App() {
             { borderWidth: 4, borderColor: "#ffd33d", borderRadius: 18 },
           ]}
         >
-          <Pressable style={[styles.button, { backgroundColor: "#fff" }]}>
-            <Text>Adding two numbers</Text>
-          </Pressable>
+          <Text>Adding two numbers</Text>
         </View>
       </Link>
 
@@ -27,9 +25,7 @@ export default function App() {
             { borderWidth: 4, borderColor: "#ffd33d", borderRadius: 18 },
           ]}
         >
-          <Pressable style={[styles.button, { backgroundColor: "#fff" }]}>
-            <Text>Navigation</Text>
-          </Pressable>
+          <Text>Navigation</Text>
         </View>
       </Link>
 
@@ -40,14 +36,11 @@ export default function App() {
             { borderWidth: 4, borderColor: "#ffd33d", borderRadius: 18 },
           ]}
         >
-          <Pressable style={[styles.button, { backgroundColor: "#fff" }]}>
-            <Text>Array Solution</Text>
-          </Pressable>
+          <Text>Array Solution</Text>
         </View>
       </Link>
-     
+
       {/* <Link href="/test1">test1</Link> */}
-      
     </View>
   );
 }
@@ -66,7 +59,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     padding: 3,
-    margin: 5,
+    margin: 15,
   },
   button: {
     borderRadius: 10,
